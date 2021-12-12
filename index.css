@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+header{
+  padding:0px;
+  height: 100vh;
+  background-color: grey;
+  color: white;
+  background-image: url("minion.jpg");
+  filter: blur(8px);
+}
+
+header h1{
+  font-size: 90px;
+  width: 100%;
+  text-align: center;
+}
+
+body nav{
+  position: sticky;
+  display: block;
+  padding: 10px;
+  top: 0px;
+  background-color: #F9DC5C;
+  width: 100%;
+}
+
+li::after{
+  clear: both;
+}
+
+ul{
+  list-style: none;
+  display: block;
+}
+
+li{
+  display: inline;
+  /* float: right; */
+  margin: 30px;
+  font-size: 30px;
+}
+
+a:link{
+  text-decoration: none;
+  color: grey;
+}
+a:hover{
+  color: black;
+}
+
+main{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+p{
+  margin: 10%;
+  margin-top: 0%;
+  font-size: 30px;
+  overflow: hidden;
+}
+
+footer{
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  height: 50vh;
+}
+
+footer nav{
+  background-color: black;
+  margin: 60px;
+}
+
+footer nav ul li{
+  display: inline;
+}
+
+footer nav a:link{
+  color:grey;
+  font-size: 20px;
+}
+
+footer nav a:hover{
+  color: white;
+}
